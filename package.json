@@ -1,0 +1,76 @@
+{
+  "name": "@cubyt/modals",
+  "version": "1.0.0",
+  "description": "Accessible modal system (dialog manager, presets, media modals, URL-synced modals) for Cubyt apps",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CubytsAS/package-modals.git"
+  },
+  "homepage": "https://github.com/CubytsAS/package-modals#readme",
+  "bugs": {
+    "url": "https://github.com/CubytsAS/package-modals/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./react": {
+      "types": "./types/react.d.ts",
+      "import": "./src/react/index.js",
+      "default": "./src/react/index.js"
+    },
+    "./modals.css": "./modals.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "types",
+    "modals.css",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "./modals.css"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@cubyt/navigation": "^1.0.0",
+    "@cubyt/ui": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@cubyt/style": "^1.1.0",
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "peerDependenciesMeta": {
+    "@cubyt/style": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
