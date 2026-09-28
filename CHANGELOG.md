@@ -2,6 +2,12 @@
 
 All notable changes to `@cubyt/modals` are documented here.
 
+## [1.0.1] - 2026-09-28
+
+### Changed
+
+- Publish from GitHub Actions with npm provenance attestations linking the package to its source commit and workflow.
+
 ## [1.0.0] - 2026-09-28
 
 Initial public release.

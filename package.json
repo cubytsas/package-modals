@@ -1,6 +1,6 @@
 {
   "name": "@cubyt/modals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Accessible modal system (dialog manager, presets, media modals, URL-synced modals) for Cubyt apps",
   "license": "MIT",
   "repository": {
@@ -48,7 +48,7 @@
     "@cubyt/ui": "^1.0.0"
   },
   "peerDependencies": {
-    "@cubyt/style": "^1.1.0",
+    "@cubyt/style": "^1.0.1",
     "react": ">=19",
     "react-dom": ">=19"
   },
