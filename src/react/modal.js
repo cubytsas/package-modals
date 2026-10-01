@@ -204,6 +204,16 @@ export function Modal(props) {
   return inline ? dialog : createPortal(dialog, container ?? document.body);
 }
 
+/** Modal preset for persistent side panels such as details and edit drawers. */
+export function DrawerModal({ placement = "side", ...props }) {
+  return h(Modal, { ...props, placement });
+}
+
+/** Modal preset for compact mobile-first actions and pickers. */
+export function SheetModal({ placement = "sheet", ...props }) {
+  return h(Modal, { ...props, placement });
+}
+
 export function ModalHeader({
   title,
   lead,

@@ -73,6 +73,10 @@ export type ModalMediaProps = {
 };
 
 export declare function Modal(props: ModalProps): ReactElement | null;
+/** Side-panel layout preset for detail views and focused editing flows. */
+export declare function DrawerModal(props: ModalProps): ReactElement | null;
+/** Bottom-sheet layout preset for compact mobile-first flows. */
+export declare function SheetModal(props: ModalProps): ReactElement | null;
 export declare namespace Modal {
   const Header: typeof ModalHeader;
   const Body: typeof ModalBody;

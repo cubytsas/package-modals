@@ -2,6 +2,18 @@
 
 All notable changes to `@cubyt/modals` are documented here.
 
+## [1.1.0] - 2026-10-01
+
+### Added
+
+- `DrawerModal` and `SheetModal` React layout presets for side panels and bottom sheets.
+- Repository structure and component contribution guidance.
+
+### Changed
+
+- Moved the stylesheet under `src/styles/` while preserving the public `@cubyt/modals/modals.css` import.
+- Simplified the README to focus on installation and component usage.
+
 ## [1.0.1] - 2026-09-28
 
 ### Changed

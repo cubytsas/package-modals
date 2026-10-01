@@ -1,10 +1,12 @@
 export {
+  DrawerModal,
   Modal,
   ModalBody,
   ModalCloseButton,
   ModalFooter,
   ModalHeader,
   ModalMedia,
+  SheetModal,
   splitModalProps,
   useModalContext,
 } from "./modal.js";

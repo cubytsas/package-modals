@@ -1,15 +1,15 @@
 {
   "name": "@cubyt/modals",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Accessible modal system (dialog manager, presets, media modals, URL-synced modals) for Cubyt apps",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cubytsas/package-modals.git"
   },
-  "homepage": "https://github.com/CubytsAS/package-modals#readme",
+  "homepage": "https://github.com/cubytsas/package-modals#readme",
   "bugs": {
-    "url": "https://github.com/CubytsAS/package-modals/issues"
+    "url": "https://github.com/cubytsas/package-modals/issues"
   },
   "type": "module",
   "main": "./src/index.js",
@@ -25,19 +25,19 @@
       "import": "./src/react/index.js",
       "default": "./src/react/index.js"
     },
-    "./modals.css": "./modals.css",
+    "./modals.css": "./src/styles/modals.css",
     "./package.json": "./package.json"
   },
   "files": [
     "src",
     "types",
-    "modals.css",
     "README.md",
     "CHANGELOG.md",
+    "CONTRIBUTING.md",
     "LICENSE"
   ],
   "sideEffects": [
-    "./modals.css"
+    "./src/styles/modals.css"
   ],
   "scripts": {
     "test": "node --test",
